@@ -1,6 +1,5 @@
-import java.awt.*;
-
 public class Main {
+
 
     /**
      * Java 基本
@@ -55,6 +54,33 @@ public class Main {
         char c = 'a' - 0x20;
         System.out.println(c);
 
+
+        /**
+         * オブジェクトを作ってみる
+         */
+        Hoge hoge = new Hoge("タイトル", "著者");
+        hoge.title = "Hooooooo!";
+        hoge.outputTitle();
+
+
+    }
+
+    /**
+     * Staticなネストしたクラス
+     */
+    private static class Hoge{
+        String title;
+        String author;
+
+        Hoge(String title, String author){
+            this.title = title;
+            this.author = author;
+
+        }
+
+        void outputTitle(){
+            System.out.println(this.title + this.author);
+        }
+
     }
 }
-
