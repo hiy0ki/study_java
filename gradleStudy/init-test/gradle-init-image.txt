@@ -1,0 +1,19 @@
+./
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle-init-image.txt
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+└── src
+    ├── main
+    │   └── java
+    │       └── Library.java
+    └── test
+        └── java
+            └── LibraryTest.java
+
+7 directories, 9 files
